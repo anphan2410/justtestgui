@@ -6,75 +6,51 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>740</width>
-    <height>203</height>
+    <width>443</width>
+    <height>179</height>
    </rect>
-  </property>
-  <property name="minimumSize">
-   <size>
-    <width>740</width>
-    <height>203</height>
-   </size>
-  </property>
-  <property name="maximumSize">
-   <size>
-    <width>740</width>
-    <height>203</height>
-   </size>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <property name="minimumSize">
-    <size>
-     <width>450</width>
-     <height>163</height>
-    </size>
-   </property>
-   <property name="maximumSize">
-    <size>
-     <width>450</width>
-     <height>163</height>
-    </size>
-   </property>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>30</y>
-      <width>421</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>If You See This Window, Then Everything Has Been Successfully Done For You !</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>110</y>
+      <x>40</x>
+      <y>50</y>
       <width>371</width>
       <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>The Next Thing Is Telling Tam To Update The Config File In The Server VPS2!</string>
+     <string>If You See This Window, Then Everything Has Been Successfully Done!</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label_3">
+   <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>70</y>
-      <width>451</width>
+      <x>40</x>
+      <y>100</y>
+      <width>381</width>
       <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>Do Not Touch Any Further Thing Except For Those Mentioned In Deployment Guide !</string>
+     <string>There Is No Need To Do Any Further Things !
+ Remember To Ask Tam For Reupload The Config File In The Server VPS2 !</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>
